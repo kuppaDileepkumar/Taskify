@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 
-const BASE_URL = "http://localhost:5000/api"
+const BASE_URL = "https://taskify-5shq.onrender.com/api"
 
 export default function Dashboard() {
   const [tasks, setTasks] = useState([])
