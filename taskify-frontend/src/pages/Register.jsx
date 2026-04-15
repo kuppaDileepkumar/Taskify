@@ -4,7 +4,7 @@ import { useState } from 'react'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 
-const BASE_URL = "http://localhost:5000/api"
+const BASE_URL = "https://taskify-5shq.onrender.com/api"
 
 export default function Register() {
   const [username, setUsername] = useState('')
